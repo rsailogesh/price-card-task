@@ -1,0 +1,83 @@
+body{
+  background-color: #4431d5;
+}
+
+.prices{
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 100px;
+
+}
+
+.free-cost, .mid-cost , .vip-cost{
+  height: 500px;
+  width: 300px;
+  background-color: white;
+  margin-right: 20px;
+  border-radius: 20px;
+
+}
+
+.headline{
+  margin-left: 110px;
+  align-items: center;
+  color: gray;
+  opacity: 0.5;
+}
+
+.pricetag{
+  margin-left: 90px;
+
+}
+
+hr{
+  opacity: 0.5;
+}
+
+p{
+  padding-left: 75px;
+  display: flex;
+  
+}
+
+.select-btn{
+  background-color: #4431d5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+  height: 30px;
+  margin-left: 44px;
+  margin-top: 50px;
+  cursor: pointer;
+  
+}
+
+.select-btn:hover{
+  background-color: aliceblue;
+  color: black;
+}
+
+.select-btn:active{
+  background-color: green;
+  color: white;
+}
+
+.tick-icon{
+  display: flex;
+  height: 20px;
+  width: 40px;
+  margin-left: -35px;
+  
+}
+
+.wrong-icon{
+  display: flex;
+  height: 20px;
+  width: 40px;
+  margin-left: -35px;
+  opacity: 0.8;
+}
